@@ -12,3 +12,12 @@ const hobby = document.getElementById("hobby").value.trim();
 
     document.getElementById("output").innerHTML = output;
 }
+function clearData() {
+    document.getElementById("name").value = "";
+    document.getElementById("age").value = "";
+    document.getElementById("city").value = "";
+    document.getElementById("hobby").value = "";
+
+    document.getElementById("output").innerHTML = "";
+
+}
